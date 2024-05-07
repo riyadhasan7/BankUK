@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="DarkGreen">#0d5e59</color>
+    <color name="Green">#8deab0</color>
+    <color name="Navy">#1A2237</color>
+    <color name="Red">#800020</color>
+    <color name="black">#FF000000</color>
+    <color name="colorDarkGray01">#717171</color>
+    <color name="colorGray01">#959595</color>
+    <color name="colorGray02">#c6c6c6</color>
+    <color name="colorGray03">#121212</color>
+    <color name="dark_blue">#00427A</color>
+    <color name="grey">#d2d2d2</color>
+    <color name="ic_launcher_background">#1A2237</color>
+    <color name="lavender">#8692f7</color>
+    <color name="light_blue">#005FAF</color>
+    <color name="purple_200">#ffbb86fc</color>
+    <color name="purple_500">#ff6200ee</color>
+    <color name="purple_700">#ff3700b3</color>
+    <color name="teal_200">#ff018786</color>
+    <color name="teal_700">#ff018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="m_button_height">60dp</dimen>
+    <dimen name="m_toolbar_height">55dp</dimen>
+    <string name="already_have_an_account_login">Already have an account? <b>Login</b></string>
+    <string name="app_name">Bank UK</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? <b> Register</b></string>
+    <string name="gcm_defaultSenderId" translatable="false">726853481058</string>
+    <string name="google_api_key" translatable="false">AIzaSyDCmZVJjdXgPUKBvFWG0_dqrDfoQMbPmf0</string>
+    <string name="google_app_id" translatable="false">1:726853481058:android:da318ba4f90c6ed53fd73b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDCmZVJjdXgPUKBvFWG0_dqrDfoQMbPmf0</string>
+    <string name="google_storage_bucket" translatable="false">mobilebankingapp-69e97.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">mobilebankingapp-69e97</string>
+    <style name="Base.Theme.MobileBankingApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/Navy</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="23">@color/black</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="23">true</item>
+
+    </style>
+    <style name="ImageStyle_Circle">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <style name="ImageStyle_Corners_Rounded">
+        <item name="cornerSize">10dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <style name="Theme.MobileBankingApp" parent="Base.Theme.MobileBankingApp"/>
+</resources>

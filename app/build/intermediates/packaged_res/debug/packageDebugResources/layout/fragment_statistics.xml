@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <!-- Health Summary -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statistics"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/Navy"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/expenseCard"
+        android:padding="10dp"
+        android:backgroundTint="@color/light_blue"
+        android:background="@drawable/background_rounded"
+        >
+
+        <TextView
+            android:id="@+id/tot_expenseStatic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Expenses: "
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TotalExpenseId"
+            android:layout_toRightOf="@id/tot_expenseStatic"
+            android:text=""
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_below="@id/TotalExpense"-->
+<!--            android:textAlignment="textEnd"-->
+<!--            android:text="test Message about Expenses"-->
+<!--            android:textColor="@color/Red"-->
+<!--            android:id="@+id/messageForExpenses"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:paddingBottom="5dp"/>-->
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/background_rounded"
+        android:backgroundTint="@color/light_blue">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:id="@+id/upArrowImageView"
+            android:src="@drawable/ic_expenses"
+            android:layout_alignParentEnd="false"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expenses"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/healthExpense"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/upArrowImageView"
+            android:layout_marginTop="15dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expenseRateId"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="+25%"
+            android:textSize="20dp"
+            android:layout_toRightOf="@id/healthExpense"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@drawable/background_rounded"
+        android:backgroundTint="@color/light_blue">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_income"
+            android:id="@+id/IncomeIcon"
+            android:layout_alignParentEnd="false"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/healthIncomeText"
+            android:layout_toRightOf="@id/IncomeIcon"
+            android:layout_marginTop="15dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/incomeRateId"
+            android:text="+25%"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/healthIncomeText"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+
+            />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnHealth"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="see more"
+        android:textAlignment="textEnd"
+        android:textSize="12sp"
+        android:layout_marginLeft="160dp"
+        android:background="#00FFFFFF"
+        android:textColor="@color/DarkGreen"
+        android:layout_marginRight="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="Category Expesne"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        >
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:title="Pie chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/sliceNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Slice Name"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/light_blue"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnBehaviour"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="see more"
+        android:textAlignment="textEnd"
+        android:textSize="12sp"
+        android:layout_marginLeft="160dp"
+        android:background="#00FFFFFF"
+        android:textColor="@color/DarkGreen"
+        android:layout_marginRight="15dp"
+        />
+
+
+
+
+
+</LinearLayout>

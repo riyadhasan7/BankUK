@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.mobilebankingapp-mergeDebugResources-42:/layout/activity_transaction.xml",
+        "source": "com.example.mobilebankingapp-main-45:/layout/activity_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_profile_edit.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_profile_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_financial_health.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_financial_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_spending.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_spending.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_set_alert.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_set_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\row_category_act.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\row_category_act.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\dummy_transactions.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\dummy_transactions.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\fragment_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_transaction.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\fragment_history.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.4\\com.example.mobilebankingapp-main-45:\\layout\\activity_main.xml"
+    }
+]
